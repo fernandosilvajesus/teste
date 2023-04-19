@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+html,
+body,
+.container,
+main {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container,
+.container main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container main {
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.logo {
+    position: absolute;
+    top: 4rem;
+}
+
+
+h1.title,
+h2.subtitle,
+legend,
+button {
+    color: #fff;
+}
+
+h1.title {
+    font-family: 'Prata', serif;
+    font-size: clamp(1vw, 5vw, 15rem);
+    letter-spacing: 2%;
+    font-weight: 400;
+}
+
+h2.subtitle {
+    font-weight: 600;
+    font-size: clamp(1vw, 21px, 2vw);
+}
+
+
+/*Formulario*/
+form {
+    width: 635px;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+
+form fieldset {
+    border: none;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .box-sing-up-content {
+    width: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.84rem;
+    margin-top: 2.7rem;
+
+}
+
+
+
+form input,
+button {
+    height: 4.4rem;
+    outline: none;
+}
+
+form input {
+    width: 90%;
+    outline: none;
+    padding: 1rem;
+    color: #0000004D;
+    border: none;
+}
+
+
+form button {
+    background: transparent;
+    border: 1px solid #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+main .social-networks ul li {
+    display: flex;
+    gap: 1.4rem;
+}

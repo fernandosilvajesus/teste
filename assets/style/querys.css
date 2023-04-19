@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    body {
+        background-image: url("../img/pexels-sevil-yeva-15895541\ \(1\).jpg");
+    }
+
+    main {
+        padding: 0;
+        margin: 0;
+    }
+
+    fieldset,
+    legend {
+        font-size: 2vw;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .box-sing-up-content {
+        max-width: 70%;
+    }
+}
