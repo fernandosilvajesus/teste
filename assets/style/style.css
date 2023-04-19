@@ -121,6 +121,7 @@ form input {
 
 form button {
     background: transparent;
+    width: 12.3rem;
     border: 1px solid #fff;
     font-weight: 700;
     font-size: 1.5rem;
